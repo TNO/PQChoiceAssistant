@@ -1,0 +1,114 @@
+<!-- dssresult.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQChoiceAssistant</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <header class="page-header">
+        <div class="navbar">
+            <a href="/">PQChoiceAssistant</a>
+            <a href="/kem">KEM</a>
+            <a href="/dss">DSS</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="main-wrapper">
+            <div class="form-wrapper" id="form-wrapper">
+
+                <h2>Your results</h2>
+                <br>
+                <p>
+                    Below you can see and review your answers. After that, a score on the scale 0-100
+                    is displayed for each of the candidate schemes along with advantages and drawbacks
+                    of the schemes. Below that, an explanation of the scoring method is also available.
+                </p>
+                <br>
+                Regardless of your answers, we advise to use PQC algorithms in
+                <div class="tooltip">hybrid mode
+                    <span class="tooltiptext">Usage of conventional and post-quantum cryptography together</span>
+                </div> when possible.
+                <br>
+                <br>
+
+                <script src="javascript/dssCalculateScores.js"></script>
+
+                <br>
+                <br>
+                <br>
+                <h3>Brief descriptions of the schemes</h3>
+                <br>
+
+                <p>
+                    <strong>ML-DSA (module lattice digital signature algorithm)</strong>, based on
+                    CRYSTALS-Dilithium, is a signature scheme based on module lattices. It has been
+                    selected by NIST for standardization and is recommended as primary algorithm.
+                    ML-DSA provides high efficiency in creating signatures as well as generating keys.
+                </p>
+                <p>• <u>Pros:</u> Fast key generation and signing, relatively small signatures.</p>
+                <p>• <u>Cons:</u> Somewhat less conservative approach.</p>
+                <br>
+
+                <p>
+                    <strong>Falcon</strong> is quite similar to ML-DSA: it is also based on module
+                    lattices and has similar efficiency. NIST also selected Falcon, and recommends
+                    it for applications requiring smaller signatures than ML-DSA is able to create.
+                    Falcon can also verify signatures faster than ML-DSA.
+                </p>
+                <p>• <u>Pros:</u> Small sizes and fast verification.</p>
+                <p>• <u>Cons:</u> Design makes it difficult to put side-channel countermeasures in place,
+                    somewhat less conservative approach.</p>
+                <br>
+
+                <p>
+                    <strong>SLH-DSA (stateless hash-based digital signature algorithm)</strong>, based
+                    on SPHINCS+, is a hash-based signature scheme also selected for standardization by
+                    NIST. It stands out by the fact that it has very small public and secret keys, has
+                    good hardware integration and is assumed to be very secure, but also is very slow
+                    at generating keys, as well as creating and verifying signatures.
+                </p>
+                <p>• <u>Pros:</u> High security, based on well-established cryptographic assumptions, small public key.</p>
+                <p>• <u>Cons:</u> Large signatures and slower performance, especially for signature generation.</p>
+                <br>
+
+                <p>
+                    <strong>XMSS (extended Merkle signature scheme)</strong> is also a hash-based
+                    signature scheme. It is the only stateful scheme out of these four, meaning a
+                    state has to be maintained between operations. This is undesirable in many
+                    applications. On the other hand, XMSS does offer efficient operations and strong
+                    security. NIST has published a recommendation for XMSS based on IETF RFC 8391.
+                </p>
+                <p>• <u>Pros:</u> Strong security, size relatively small, fast verification.</p>
+                <p>• <u>Cons:</u> State is hard to handle, limited number of signatures, reducing applicability significantly.</p>
+                <br>
+
+                <br>
+                <h3>Scoring system</h3>
+                <br>
+                <p>The schemes are scored as follows. For every question number between 2 and 9, a
+                    score between 0 and 5 is given to each scheme. This score depends on your answer,
+                    with higher scores given to schemes that fit best with your answer. If you decide
+                    to answer questions marked as expert questions, these take precedence over the
+                    regular question covering the same topic. Questions you marked important count double.
+                    At the end, each final score is normalized to be between 0 and 100 and displayed,
+                    as it is above.
+                </p>
+
+                <div class="image-container">
+                    <img src="images/tno_logo.jpg" alt="TNO logo" width="250">
+                    <img src="images/cwi_logo.jpg" alt="CWI logo" width="250">
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,88 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQChoiceAssistant</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <header class="page-header">
+        <div class="navbar">
+            <a href="/">PQChoiceAssistant</a>
+            <a href="/kem">KEM</a>
+            <a href="/dss">DSS</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="main-wrapper">
+            <div class="form-wrapper">
+
+                <h2>Welcome</h2>
+                <br>
+                <p>Welcome to the <strong>PQChoiceAssistant!</strong></p>
+                <p>
+                    Here you can get advice on the feasibility of various post-quantum cryptographic
+                    algorithms in your use-case.
+                </p>
+                <p>
+                    We make a distinction between Key Encapsulation Mechanism (KEM) and Digital
+                    Signature Scheme (DSS) algorithms. Currently, we support ML-KEM, Classic McEliece
+                    and FrodoKEM as KEMs, and Falcon, ML-DSA, XMSS and SLH-DSA as DSSes. These are the
+                    most prominent candidates, as they are either accepted as a NIST standard or have
+                    governmental support.
+                </p>
+                <p>
+                    By answering relevant questions about your situation,
+                    you are able to see recommendations on the most well-suited option.
+                </p>
+                <br>
+                <p>Please choose one of the following options:</p>
+
+                <div>
+                    <a href="/kem" class="big-btn">KEM</a>
+
+                    <a href="/dss" class="big-btn">DSS</a>
+                </div>
+
+                <br>
+                <h2 id="about-pqchoiceassistant">About PQChoiceAssistant</h2>
+                <br>
+                <p>
+                    The PQChoiceAssistant is a tool developed by TNO and Centrum Wiskunde & Informatica,
+                    with the support of Fox Crypto, NXP, Technolution and Compumatica, commissioned
+                    by the Dutch governmental organization Netherlands National Communication Security
+                    Authority (Dutch: NBV, Nationaal Bureau voor Verbindingsbeveiliging)
+                    and the Ministry of Economic Affairs and Climate Policy (min. EZK), and executed
+                    under the dcypher roadmap Cryptography.
+                </p>
+                <br>
+                <p>
+                    In March 2023, we published the
+                    <a href="https://www.tno.nl/en/newsroom/2023/04-0/pqc-migration-handbook/">PQC Migration Handbook</a>,
+                    which assists organisations in mitigating the threat of quantum computers on currently
+                    used cryptography, by providing concrete steps and advice. The PQChoiceAssistant
+                    is an extension to the PQC Migration Handbook. After the PQC Diagnosis, in which
+                    the vulnerable cryptography is identified, the PQChoiceAssistant assists in making
+                    the choice of which algorithm(s) to migrate to.
+                </p>
+                <br>
+
+                <div class="image-container">
+                    <img src="images/tno_logo.jpg" alt="TNO logo" width="250">
+                    <img src="images/cwi_logo.jpg" alt="CWI logo" width="250">
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+
+</body>

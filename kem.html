@@ -1,0 +1,90 @@
+<!-- kem.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQChoiceAssistant</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <header class="page-header">
+        <div class="navbar">
+            <a href="/">PQChoiceAssistant</a>
+            <a href="/kem">KEM</a>
+            <a href="/dss">DSS</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-wrapper">
+            <div class="form-wrapper">
+
+                <h2>KEM Choice Assistant</h2>
+                <br>
+                <p>Please answer the following questions.</p>
+                <p>
+                    For advanced users with extensive cryptographic knowledge,
+                    expert questions are available to get more finetuned results.
+                    You are free to skip these questions if you are not sure. Note that expert
+                    questions replace the scoring of the corresponding regular question, e.g., when
+                    answering expert question 5-1, the answer to question 5 will be disregarded.
+                </p>
+                <p>
+                    Most questions are also accompanied by a brief introduction illustrating the idea
+                    behind the question.
+                </p>
+                <br>
+                For some questions, a
+                <div class="tooltip">tooltip
+                    <span class="tooltiptext">Tooltips look like this and contain additional information</span>
+                </div> is available.
+                You can hover over them to see additional information.
+                <br>
+                <br>
+                <p>
+                    We consider three candidate Key Encapsulation Mechanisms: <strong>ML-KEM</strong>,
+                    <strong>FrodoKEM</strong> and <strong>McEliece</strong>.
+                    A detailed description of these can be found along with the results of the questionnaire on the next page.
+                </p>
+                <br>
+                <br>
+
+                <script src="javascript/kemDisplayQuestion.js" type="module"></script>
+                <script src="javascript/kemProcessForm.js"></script>
+
+                <form id="kemform" onsubmit="return processForm()">
+
+                    <div id="form-container"></div>
+                    <p>
+                        All information entered in the PQChoiceAssistant is handled client-side, and
+                        all calculations are done in the browser. Therefore, no information is stored
+                        or viewed by the creators of the PQChoiceAssistant.
+                    </p>
+                    <p>For this reason, the tool can also be used offline.
+                        You can easily download the website code and background material from
+                        <a href="https://www.github.com/TNO/PQChoiceAssistant">Github</a>.
+                    </p>
+                    <p>
+                        The PQChoiceAssistant is offered by TNO as is.
+                        TNO does not warrant the availability of the PQChoiceAssistant at any given time.
+                        The PQChoiceAssistant has been developed with great diligence by TNO and CWI.
+                        TNO and CWI are not responsible for any damages incurred, in any way, from the use
+                        of the PQChoiceAssistant.
+                    </p>
+                    <input type="button" class="btn" value="Accept, see the results" onclick="processForm()">
+                </form>
+
+                <div class="image-container">
+                    <img src="images/tno_logo.jpg" alt="TNO logo" width="250">
+                    <img src="images/cwi_logo.jpg" alt="CWI logo" width="250">
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
