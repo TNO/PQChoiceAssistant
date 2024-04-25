@@ -20,7 +20,7 @@ const questions = [
         type: 'radio',
         name: 'q2 (Follow-up)',
         topic: 'Classified information',
-        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The NLNCSA (Dutch: Nationaal Bureau voor Verbindingsbeveiliging, NBV) can provide guidance on these rules and requirements.",
+        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The AIVD can provide guidance on these rules and requirements.",
         prompt: 'Are you working with classified information?',
         options: ['Yes', 'No', "Do not know"],
     },
@@ -1093,7 +1093,7 @@ if (sessionStorage.getItem('q4') == 'IETF') {
 
 // Print advice basend on answer of question 2 follow-up
 if (sessionStorage.getItem('q2 (Follow-up)') == 'Yes') {
-    div.innerHTML += `<br><p>Based on your answer to question 2 (Follow-up), it is advised to contact the Nationaal Bureau voor Verbindingsbeveiliging (NBV) or a similar governmental agency in your country to receive their guidelines on classified information.</p>`;
+    div.innerHTML += `<br><p>Based on your answer to question 2 (Follow-up), it is advised to contact the AIVD or a similar governmental agency in your country to receive their guidelines on classified information.</p>`;
 }
 
 // Print advice based on answer of question 3-2

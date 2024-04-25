@@ -20,7 +20,7 @@ const questions = [
         type: 'radio',
         name: 'q2 (Follow-up)',
         topic: 'Classified information',
-        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The NLNCSA (Dutch: Nationaal Bureau voor Verbindingsbeveiliging, NBV) can provide guidance on these rules and requirements.",
+        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The AIVD can provide guidance on these rules and requirements.",
         prompt: 'Are you working with classified information?',
         options: ['Yes', 'No', "Do not know"],
     },

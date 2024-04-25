@@ -20,7 +20,7 @@ const questions = [
         type: 'radio',
         name: 'q2 (Follow-up)',
         topic: 'Classified information',
-        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The NLNCSA (Dutch: Nationaal Bureau voor Verbindingsbeveiliging, NBV) can provide guidance on these rules and requirements.",
+        intro: "For the protection of classified information, some specific rules and requirements may apply. In case you do not know what classified information is, or in case you are not sure whether your application handles classified information, the answer to the following question is probably 'No'. The AIVD can provide guidance on these rules and requirements.",
         prompt: 'Are you working with classified information?',
         options: ['Yes', 'No', "Do not know"],
     },
@@ -810,7 +810,7 @@ function calculateScores() {
     mcelieceScore += factor * scores8.mceliece;
 
     //  Question 9 has been implemented with the factors above
-    
+
     // Normalise to range 0-100
     mlkemScore = Math.round(mlkemScore / maxScore * 100);
     frodokemScore = Math.round(frodokemScore / maxScore * 100);
@@ -859,7 +859,7 @@ if (sessionStorage.getItem('q4') == 'NIST') {
 
 // Print advice basend on answer of question 2 follow-up
 if (sessionStorage.getItem('q2 (Follow-up)') == 'Yes') {
-    div.innerHTML += `<br><p>⚠️ Note: Based on your answer to question 2 (Follow-up), if your application handles (Dutch) classified information (Dutch: Gerubriceerde informatie), please contact the NLNCSA (Dutch: Nationaal Bureau voor Verbindingsbeveiliging, NBV) for guidance on how to protect classified data from the quantum threat.</p>`;
+    div.innerHTML += `<br><p>⚠️ Note: Based on your answer to question 2 (Follow-up), if your application handles (Dutch) classified information (Dutch: Gerubriceerde informatie), please contact the AIVD for guidance on how to protect classified data from the quantum threat.</p>`;
 }
 
 // Print advice based on answer of question 3-2

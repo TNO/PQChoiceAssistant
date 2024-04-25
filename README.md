@@ -37,7 +37,7 @@ Note that the information put in the questionnaires is not sent anywhere, it is 
 
 ## Background of the project
 
-The research and tool development were performed by [TNO](https://www.tno.nl/) and [CWI](https://www.cwi.nl/). This process was supported by input from [Compumatica](https://www.compumatica.com/), [Fox Crypto](https://www.fox-it.com/nl/fox-crypto/), Nationaal Bureau voor Verbindingsbeveiliging (NBV), [NXP](https://www.nxp.com/) and [Technolution](https://www.technolution.com/).
+The research and tool development were performed by [TNO](https://www.tno.nl/) and [CWI](https://www.cwi.nl/). This process was supported by input from [AIVD](https://www.aivd.nl/), [Compumatica](https://www.compumatica.com/), [Fox Crypto](https://www.fox-it.com/nl/fox-crypto/), [NXP](https://www.nxp.com/) and [Technolution](https://www.technolution.com/).
 
 The project is a continuation of the [PQC Migration Handbook](https://www.tno.nl/en/newsroom/2023/04-0/pqc-migration-handbook/), which offers advice and concrete steps for organisations to mitigate the risk of quantum computers to cryptography. The first part of the process consisted of studying the different algorithms and collecting information about them in a characteristics overview, which can be found in the [`background_material`](https://www.github.com/TNO/PQChoiceAssistant/tree/main/background_material) folder. This overview was then used to construct the questions in the questionnaire and scoring system, which was then implemented.
 
