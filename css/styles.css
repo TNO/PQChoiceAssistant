@@ -19,7 +19,7 @@ body {
 .form-wrapper {
   margin: 0 auto;
   max-width: 570px;
-  width: 100%;
+  width: 100vw;
   background: white;
   padding: 40px;
 }
@@ -197,7 +197,8 @@ body {
 .big-btn {
   text-decoration: none;
   text-align: center;
-  width: 40%;
+  width: 40vw;
+  max-width: 40%;
   font-size: 24px;
   border-radius: 5px;
   padding: 50px 25px;
@@ -298,7 +299,7 @@ body {
 }
 
 .image-container img {
-  max-width: 100%; /* Ensure images don't exceed their container */
+  max-width: 40vw; /* Ensure images don't exceed their container */
   height: auto; /* Maintain aspect ratio */
 }
 
@@ -331,4 +332,8 @@ body {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.button-wrapper {
+  display: flex;
 }
