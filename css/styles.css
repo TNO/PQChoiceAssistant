@@ -188,6 +188,10 @@ body {
   color: black;
 }
 
+.navbar-right {
+  float: right;
+}
+
 .main {
   padding: 16px;
   margin-top: 30px;

@@ -17,6 +17,9 @@
             <a href="/PQChoiceAssistant">PQChoiceAssistant</a>
             <a href="/PQChoiceAssistant/kem">KEM</a>
             <a href="/PQChoiceAssistant/dss">DSS</a>
+            <div class="navbar-right">
+                <a href="https://www.github.com/TNO/PQChoiceAssistant"><img src="images/github-mark-white.png" alt="GitHub logo" width="25"></a>
+            </div>
         </div>
     </header>
 
@@ -29,21 +32,25 @@
                 <br>
                 <p>Welcome to the <strong>PQChoiceAssistant!</strong></p>
                 <p>
-                    Here you can get advice on the feasibility of various post-quantum cryptographic
+                    With this open-source tool, you can get advice on the feasibility of various post-quantum cryptographic
                     algorithms in your use-case.
                 </p>
                 <p>
-                    We make a distinction between Key Encapsulation Mechanism (KEM) and Digital
-                    Signature Scheme (DSS) algorithms. Currently, we support ML-KEM, Classic McEliece
-                    and FrodoKEM as KEMs, and Falcon, ML-DSA, XMSS and SLH-DSA as DSSes. These are the
-                    most prominent candidates, as they are either accepted as a NIST standard or have
-                    governmental support.
-                </p>
-                <p>
                     By answering relevant questions about your situation,
-                    you are able to see recommendations on the most well-suited option.
+                    you are able to see recommendations on the most well-suited option,
+                    as well as the pros and cons of the schemes.
                 </p>
                 <br>
+                <p>
+                    <i>All information entered in the PQChoiceAssistant is handled client-side, and
+                    all calculations are done in the browser. Therefore, no information is stored
+                    or viewed by the creators of the PQChoiceAssistant.</i>
+                </p>
+                <p><i>For this reason, the tool can also be used offline.
+                    You can easily download the website code and background material from
+                    <a href="https://www.github.com/TNO/PQChoiceAssistant">GitHub</a>, or click the GitHub icon in the top right.</i>
+                </p>
+            <br>
                 <p>Please choose one of the following options:</p>
 
                 <div class="button-wrapper">
@@ -71,6 +78,14 @@
                     is an extension to the PQC Migration Handbook. After the PQC Diagnosis, in which
                     the vulnerable cryptography is identified, the PQChoiceAssistant assists in making
                     the choice of which algorithm(s) to migrate to.
+                </p>
+                <br>
+                <p>
+                    We make a distinction between Key Encapsulation Mechanism (KEM) and Digital
+                    Signature Scheme (DSS) algorithms. Currently, we support ML-KEM, Classic McEliece
+                    and FrodoKEM as KEMs, and Falcon, ML-DSA, XMSS and SLH-DSA as DSSes. These are the
+                    most prominent candidates, as they are either accepted as a NIST standard or have
+                    governmental support.
                 </p>
                 <br>
 
