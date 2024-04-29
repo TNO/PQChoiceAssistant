@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  padding-top: 54px;
 }
 
 .main-wrapper {
@@ -156,13 +157,6 @@ body {
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-
-
-
-
-
-
-
 .navbar {
   overflow: hidden;
   background-color: #133cb6;
@@ -190,6 +184,7 @@ body {
 
 .navbar-right {
   float: right;
+  height: 54px;
 }
 
 .main {
