@@ -1,20 +1,26 @@
 # PQChoiceAssistant
 
-The development of quantum computers is threatening cryptography that is currently widely used to protect our digital world. To encounter this threat, new cryptographic schemes are developed that should be resistant to attacks using quantum computers. This is the area of so-called post-quantum cryptography (PQC). As there are multiple schemes being developed and standardized, it may be hard to make a choice which one(s) to apply in your use case. The information to make this choice is scattered over many sources, e.g. research papers and standardization bodies. In order to help navigate this information, the PQChoiceAssistant tool aims to give an indication on what scheme seems the most well-suited option for your use case.
+The development of quantum computers is threatening cryptography that is currently widely used to protect our digital world. To encounter this threat, new cryptographic schemes are developed to be resistant to attacks using quantum computers. This is the area of so-called post-quantum cryptography (PQC). As there are multiple schemes being developed and standardized, it may be hard to make a choice on which one(s) to apply in your use case. The information to make this choice is scattered over many sources, such as research papers and different standardisation bodies. In order to help navigate this information, the PQChoiceAssistant aims to give an indication on what scheme seems the most suitable option for your use case.
 
 ## What the tool offers
 
-The PQChoiceAssistant offers questionnaire concerning two types of schemes, key encapsulation mechanisms (KEMs) and digital signature schemes (DSSs). The questions aim to relate characteristics of your use case to the different characteristics of the schemes. Finally, a score will be calculated based on the answers. The better a scheme first your use case, the higher its score. The scoring page also gives a short overview of the pros and cons of the schemes.
+*The tool is available in both Dutch and English.*
 
-The functionality may be familiar to you: it was inspired by voting advice applications. In that sense, the results of the PQChoiceAssistant are a recommendation, but further research on the recommended scheme is required to see whether it indeed fits your use case.
+The PQChoiceAssistant offers two questionnaires concerning two types of schemes: key encapsulation mechanisms (KEMs) and digital signature algorithms (DSAs). The questions aim to relate characteristics of your use case to the different characteristics of the schemes. Finally, a score will be calculated based on your answers. The better a scheme fits your use case, the higher its score will be. The scoring page can also give personalised advice based on your answers.
 
-As there are many PQC schemes available, a selection was made to scope the project, based on the advice of industry partners. The tool covers the following schemes:
+The results of the PQChoiceAssistant are a recommendation, but further research on the recommended scheme is advised to see whether it indeed fits your use case.
+
+The tool also offers an overview of the available algorithms, giving you information on many relevant characteristics. This information is meant to be used in combination with filling out the questionnaires. 
+
+As there are many PQC schemes available, a selection was made for the most likely candidates. The tool covers the following schemes:
 
 Key encapsulation mechanisms
 
 - ML-KEM (based on CRYSTALS-Kyber)
 - FrodoKEM
 - Classic McEliece
+- HQC
+- BIKE
 
 Digital signature schemes
 
@@ -25,21 +31,27 @@ Digital signature schemes
 
 ## How to use the tool
 
-You can find the tool at [https://tno.github.io/PQChoiceAssistant](https://tno.github.io/PQChoiceAssistant).
+You can find the tool at https://tno.github.io/PQChoiceAssistant.
 
-First, choose what kind of scheme you need for your use case, a key encapsulation mechanism or digital signature scheme. You can then fill in the questionnaire. For advanced users with extensive cryptographic knowledge, expert questions are available to get more finetuned results. You are free to skip these questions if you are not sure. Note that expert questions replace the scoring of the corresponding regular question, e.g. when answering expert question 5-1, the answer to question 5 will be disregarded. Most questions are also accompanied by a brief introduction illustrating the idea behind the question.
+Here, you can choose to go to the questionnaire for either KEMs or DSAs, or view the general overview page. For advanced users with extensive cryptographic knowledge, expert questions are available to get more finetuned results. You are free to skip these (or any other) questions if you are unsure. The questions are also accompanied by a brief introduction to the right, illustrating the context of the question.
 
-The last question can be used to indicate topics that you find extra important, these will be weighed more heavily in the final scoring.
+After completing the questions, you are taken to the results page. Here you see which algorithms are most suited to your needs. You can indicate topics that you find most important, these will be weighed more heavily in the final scoring. You can also see brief explanations of the algorithms, and key differences between options that receive comparable scores. Finally, you can use the *Back to questions* button to change your answers, and the *export* button will save all of your results to a downloadable PDF.
 
-Click on the "Accept, see the results" button to accept the disclaimer and get the scoring and additional information on the schemes.
+### Local usage
 
-Note that the information put in the questionnaires is not sent anywhere, it is processed in your browser. In case you want to run the tool locally, you can find the source code on [https://www.github.com/TNO/PQChoiceAssistant](https://www.github.com/TNO/PQChoiceAssistant).
+Note that the information put in the questionnaires is not sent anywhere, it is processed in your browser. In case you want to run the tool locally, you can download this repository by clicking `Code -> Download ZIP` at the top of the page.
+
+This requires [Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) to host the tool locally.
+
+Unzip the downloaded file and inside it run the command ```npm install``` to install all required dependencies. Then run ```npm run dev``` to host the tool, which should then become available at http://localhost:5173/PQChoiceAssistant/.
 
 ## Background of the project
 
+The project is a continuation of the [PQC Migration Handbook](https://publications.tno.nl/publication/34643387/XTdELY16/TNO-2024-pqc-ne.pdf), which offers advice and concrete steps for organisations to mitigate the risk of quantum computers to cryptography. It goes into depth on the entire migration process, and covers more than the choice of algorithms. For this reason, we recommend using both the PQC Migration Handbook and the PQChoiceAssistant to get the best results for your organisation.
+
 The research and tool development were performed by [TNO](https://www.tno.nl/) and [CWI](https://www.cwi.nl/). This process was supported by input from [AIVD](https://www.aivd.nl/), [Compumatica](https://www.compumatica.com/), [Fox Crypto](https://www.fox-it.com/nl/fox-crypto/), [NXP](https://www.nxp.com/) and [Technolution](https://www.technolution.com/).
 
-The project is a continuation of the [PQC Migration Handbook](https://www.tno.nl/en/newsroom/2023/04-0/pqc-migration-handbook/), which offers advice and concrete steps for organisations to mitigate the risk of quantum computers to cryptography. The first part of the process consisted of studying the different algorithms and collecting information about them in a characteristics overview, which can be found in the [`background_material`](https://www.github.com/TNO/PQChoiceAssistant/tree/main/background_material) folder. This overview was then used to construct the questions in the questionnaire and scoring system, which was then implemented.
+<!-- For the interested reader, documentation on the scoring mechanism can be found in [this PDF](https://www.github.com/TNO/PQChoiceAssistant/tree/main/background_material/). It details the formulas behind the scores, as well as the approach taking in assigning scores to the algorithms. -->
 
 ## How to get in touch
 
