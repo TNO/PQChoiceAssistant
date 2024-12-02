@@ -59,7 +59,7 @@
                     {
                         value: 'ext:github',
                         label: 'GitHub',
-                        action: () => window.open('https://github.com/basvdl97/PQChoiceAssistant/tree/main', '_blank')
+                        action: () => window.open('https://github.com/TNO/PQChoiceAssistant/', '_blank')
                     }
                 ]
             }
