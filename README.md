@@ -47,11 +47,16 @@ Unzip the downloaded file and inside it run the command ```npm install``` to ins
 
 ## Background of the project
 
-The project is a continuation of the [PQC Migration Handbook](https://publications.tno.nl/publication/34643387/XTdELY16/TNO-2024-pqc-ne.pdf), which offers advice and concrete steps for organisations to mitigate the risk of quantum computers to cryptography. It goes into depth on the entire migration process, and covers more than the choice of algorithms. For this reason, we recommend using both the PQC Migration Handbook and the PQChoiceAssistant to get the best results for your organisation.
+The project is a continuation of the [PQC Migration Handbook](https://publications.tno.nl/publication/34643386/fXcPVHsX/TNO-2024-pqc-en.pdf) (see also the [Dutch version](https://publications.tno.nl/publication/34643387/XTdELY16/TNO-2024-pqc-ne.pdf)), which offers advice and concrete steps for organisations to mitigate the risk of quantum computers to cryptography. It goes into depth on the entire migration process, and covers more than the choice of algorithms. For this reason, we recommend using both the PQC Migration Handbook and the PQChoiceAssistant to get the best results for your organisation.
 
 The research and tool development were performed by [TNO](https://www.tno.nl/) and [CWI](https://www.cwi.nl/). This process was supported by input from [AIVD](https://www.aivd.nl/), [Compumatica](https://www.compumatica.com/), [Fox Crypto](https://www.fox-it.com/nl/fox-crypto/), [NXP](https://www.nxp.com/) and [Technolution](https://www.technolution.com/).
 
 <!-- For the interested reader, documentation on the scoring mechanism can be found in [this PDF](https://www.github.com/TNO/PQChoiceAssistant/tree/main/background_material/). It details the formulas behind the scores, as well as the approach taking in assigning scores to the algorithms. -->
+
+## License
+![License: EUPL](https://img.shields.io/badge/License-EUPL%201.2-blue.svg)
+
+This project is licensed under the European Union Public License (EUPL) 1.2.
 
 ## How to get in touch
 

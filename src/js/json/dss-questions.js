@@ -677,8 +677,8 @@ export const questions = [
                 "expert_level": true,
                 "custom_scoring": null,
                 "description": {
-                    "NL": "Sommige PQC-algoritmen hebben hardwareondersteuning nodig voor floating point arithmetic, om te garanderen dat het algoritme veilig is geïmplementeerd.",
-                    "EN": "Some cryptographic schemes require support for floating point arithmetic to enable a secure implementation."
+                    "NL": "Sommige PQC-algoritmen hebben hardwareondersteuning nodig voor floating point arithmetic, om te garanderen dat het algoritme veilig en efficiënt is geïmplementeerd.",
+                    "EN": "Some cryptographic schemes require support for floating point arithmetic to enable a secure, efficient implementation."
                 },
                 "max_selectable_answers": 1,
                 "scoring_question": true,
@@ -711,8 +711,8 @@ export const questions = [
                             "XMSS": 3.0
                         },
                         "error_message": {
-                            "NL": "U heeft aangegeven dat uw apparaat geen floating point berekeningen ondersteunt. Falcon heeft floating points nodig in sommige berekeningen, dus is het niet beschikbaar voor uw toepassing en daarom niet als optie weergegeven.",
-                            "EN": "You indicated that your device does not support floating point arithmetic. Falcon requires floating points in some of its operations, so it is not suitable for your use case and is not displayed as an option."
+                            "NL": "U heeft aangegeven dat uw apparaat geen floating point berekeningen ondersteunt. Falcon heeft floating points nodig om sommige berekeningen veilig en efficiënt uit te voeren, dus is het niet beschikbaar voor uw toepassing en daarom niet als optie weergegeven.",
+                            "EN": "You indicated that your device does not support floating point arithmetic. Falcon requires floating points to perform some of its operations securely and efficiently, so it is not suitable for your use case and is not displayed as an option."
                         }
                     }
                 ]

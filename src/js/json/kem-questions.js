@@ -446,13 +446,13 @@ export const questions = [
                         "scores": {
                             "ML-KEM": 5.0,
                             "FrodoKEM": -1.0,
-                            "Classic McEliece": 2.0,
-                            "HQC": 2.0,
-                            "BIKE": 2.0
+                            "Classic McEliece": -1.0,
+                            "HQC": 4.0,
+                            "BIKE": -1.0
                         },
                         "error_message": {
-                            "NL": "U heeft aangegeven dat u standaardisatie volgt. NIST heeft FrodoKEM niet geselecteerd als standaard, dus u moet dit algoritme niet selecteren als u de NIST-standaard wil volgen",
-                            "EN": "You indicated you follow standardisation. NIST has not selected FrodoKEM for standardisation, so you should not select it if you want to follow NIST standards."
+                            "NL": "U heeft aangegeven dat u standaardisatie volgt. NIST heeft FrodoKEM, Classic McEliece en BIKE niet geselecteerd als standaard, dus u moet dit algoritme niet selecteren als u de NIST-standaard wil volgen",
+                            "EN": "You indicated you follow standardisation. NIST has not selected FrodoKEM, Classic McEliece or BIKE for standardisation, so you should not select it if you want to follow NIST standards."
                         }
                     },
                     {

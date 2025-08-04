@@ -62,24 +62,24 @@ export default [
         },
         "content": {
             "ML-KEM": {
-                "NL": "Won de zes jaar durende competitie van NIST en is geselecteerd als de hoofdstandaard in 2024; wordt momenteel ook gestandardiseerd door ISO",
+                "NL": "Won de zes jaar durende competitie van NIST en is geselecteerd als de hoofdstandaard in 2024; wordt momenteel ook gestandaardiseerd door ISO",
                 "EN": "Won NIST's six-year long competition and was selected as its main standard in 2024; also in the process of being standardised by ISO"
             },
             "FrodoKEM": {
-                "NL": "Geselecteerd als een alternatief door NIST, maar niet geselecteerd voor standardisatie; wordt momenteel wel gestandardiseerd door ISO",
+                "NL": "Geselecteerd als een alternatief door NIST, maar niet geselecteerd voor standardisatie; wordt momenteel wel gestandaardiseerd door ISO",
                 "EN": "Selected as an alternate candidate by NIST, but not selected for standardisation; is in the process of being standardised by ISO"
             },
             "Classic McEliece": {
-                "NL": "Nog in de competitie - geselecteerd voor ronde 4 van NIST standardisatie; wordt momenteel ook gestandardiseerd door ISO",
-                "EN": "Still in competition - has been selected for NIST standardisation round 4; also in the process of being standardised by ISO"
+                "NL": "Wordt momenteel gestandaardiseerd door ISO, maar NIST heeft het niet geselecteerd voor de huidige standaardisatieronde",
+                "EN": "Is currently being standardised by ISO, but NIST has not selected it for its current round of standardisation"
             },
             "BIKE": {
-                "NL": "Nog in de competitie - geselecteerd voor ronde 4 van NIST standardisatie",
-                "EN": "Still in competition - has been selected for NIST standardisation round 4"
+                "NL": "Werd in 2025 uitgeschakeld in de NIST-competitie, en wordt niet gestandaardiseerd door ISO",
+                "EN": "Was eliminated from the NIST competition in 2025, and is not being considered by ISO"
             },
             "HQC": {
-                "NL": "Nog in de competitie - geselecteerd voor ronde 4 van NIST standardisatie",
-                "EN": "Still in competition - has been selected for NIST standardisation round 4"
+                "NL": "Wordt gestandaardiseerd door NIST, in 2025 aangekondigd als belangrijkste alternatief voor ML-KEM",
+                "EN": "To be standardised by NIST, announced as the main alternative to ML-KEM in 2025"
             }
         }
         

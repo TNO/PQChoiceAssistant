@@ -66,8 +66,8 @@ export default [
                 "EN": "One of the winners of NIST's six-year long competition, was released as a standard in 2024 as FIPS 205"
             },
             "XMSS": {
-                "NL": "Niet geselecteerd door NIST, maar wel gespecificieerd in IETF RFC 8391 en maakt deel uit van ISO 14888-4",
-                "EN": "Not selected by NIST, but is specified in IETF RFC 8391 and also part of in ISO 14888-4"
+                "NL": "Niet geselecteerd in de standaardisatiecompetitie van NIST, maar wel goedgekeurd voor gebruik in NIST-publicatie 800-208. Ook gespecificieerd in IETF RFC 8391 en ISO 14888-4",
+                "EN": "Not selected in the NIST standardisation competition, but was approved for usage in NIST publication 800-208. Also specified in IETF RFC 8391 and ISO 14888-4"
             }
         }
     },
