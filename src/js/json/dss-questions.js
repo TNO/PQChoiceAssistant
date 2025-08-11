@@ -671,26 +671,26 @@ export const questions = [
             },
             {
                 "question": {
-                    "NL": "Ondersteunt uw apparaat floating point arithmetic?",
-                    "EN": "Does your device support floating point arithmetic?"
+                    "NL": "Welke van de volgende stellingen is van toepassing op uw situatie?\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30001. De duur van het zetten van een handtekening kan worden getimed door een niet vertrouwde partij\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30002. Het is belangrijk dat het zetten van handtekeningen snel is\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30003. I k kan hardware gebruiken die speciaal ontworpen of gecontroleerd veilig is voor FN-DSA",
+                    "EN": "Which of the following statements apply to your situation?\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30001. The duration of the signing operation can be timed by a non-trusted party\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30002. The signing operation needs to be very fast\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u30003. I am able to use hardware that is specially designed or securely tested for FN-DSA"
                 },
                 "expert_level": true,
                 "custom_scoring": null,
                 "description": {
-                    "NL": "Sommige PQC-algoritmen hebben hardwareondersteuning nodig voor floating point arithmetic, om te garanderen dat het algoritme veilig en efficiënt is geïmplementeerd.",
-                    "EN": "Some cryptographic schemes require support for floating point arithmetic to enable a secure, efficient implementation."
+                    "NL": "Sommige PQC-algoritmen hebben hardwareondersteuning nodig voor floating point arithmetic, om te garanderen dat het algoritme veilig en efficiënt is geïmplementeerd. In het bijzonder is FN-DSA zeer moeilijk veilig te implementeren met algemene floating point hardware-ondersteuning, en is zeer langzaam zonder floating points. In sommige situaties is daarom speciale hardware vereist.",
+                    "EN": "Some cryptographic schemes require support for floating point arithmetic to enable a secure, efficient implementation. In particular, FN-DSA is very difficult to implement securely with general floating point hardware support, and very slow without floating points. In some situations, it may thus require special hardware."
                 },
                 "max_selectable_answers": 1,
                 "scoring_question": true,
                 "answers": [
                     {
                         "text": {
-                            "NL": "Ja",
-                            "EN": "Yes"
+                            "NL": "1 is niet van toepassing",
+                            "EN": "1 does not apply"
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 5.0,
+                            "Falcon": 4.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -701,8 +701,24 @@ export const questions = [
                     },
                     {
                         "text": {
-                            "NL": "Nee",
-                            "EN": "No"
+                            "NL": "1, maar niet 2",
+                            "EN": "1, but not 2"
+                        },
+                        "scores": {
+                            "ML-DSA": 3,
+                            "Falcon": 1.0,
+                            "SLH-DSA": 3.0,
+                            "XMSS": 3.0
+                        },
+                        "error_message": {
+                            "NL": "U heeft aangegeven dat u constant-time handtekeninggeneratie nodig heeft, maar niet zeer snel. Als u FN-DSA gebruikt, moet u dit daarom doen met floating point emulatie om veiligheid te waarborgen.",
+                            "EN": "You indicated that you require constant-time signature generation, although not very fast. If you use FN-DSA, you must therefore use it with floating point emulation to ensure security."
+                        }
+                    },
+                    {
+                        "text": {
+                            "NL": "1 en 2, maar niet 3",
+                            "EN": "1 and 2, but not 3"
                         },
                         "scores": {
                             "ML-DSA": 3,
@@ -711,8 +727,24 @@ export const questions = [
                             "XMSS": 3.0
                         },
                         "error_message": {
-                            "NL": "U heeft aangegeven dat uw apparaat geen floating point berekeningen ondersteunt. Falcon heeft floating points nodig om sommige berekeningen veilig en efficiënt uit te voeren, dus is het niet beschikbaar voor uw toepassing en daarom niet als optie weergegeven.",
-                            "EN": "You indicated that your device does not support floating point arithmetic. Falcon requires floating points to perform some of its operations securely and efficiently, so it is not suitable for your use case and is not displayed as an option."
+                            "NL": "U heeft aangegeven dat u snelle, constant-time handtekeninggeneratie nodig heeft, maar dat u geen specifieke hardware for FN-DSA heeft. Om deze reden kunt u FN-DSA niet gebruiken en deze wordt daarom niet als optie weergegeven.",
+                            "EN": "You indicated that you require fast, constant-time signature generation, but you do not have suitable hardware for FN-DSA. For this reason, you should not use FN-DSA and it is therefore not displayed as an option."
+                        }
+                    },
+                    {
+                        "text": {
+                            "NL": "1, 2 en 3",
+                            "EN": "1, 2 and 3"
+                        },
+                        "scores": {
+                            "ML-DSA": 3,
+                            "Falcon": 5.0,
+                            "SLH-DSA": 3.0,
+                            "XMSS": 3.0
+                        },
+                        "error_message": {
+                            "NL": null,
+                            "EN": null
                         }
                     }
                 ]
