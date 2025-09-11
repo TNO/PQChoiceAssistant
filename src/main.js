@@ -10,7 +10,7 @@ import 'jspdf-autotable';
 
 const app = createApp(App)
 
-app.config.globalProperties.$version = 'v2.2';
+app.config.globalProperties.$version = 'v2.3';
 app.config.globalProperties.$jsPDF = jsPDF;
 
 app.use(router)

@@ -13,7 +13,7 @@
                     <b>Context</b>
                     <br/><br/>
                     The PQChoiceAssistant is a tool developed by TNO and Centrum Wiskunde & Informatica, with the
-                    support of Fox Crypto, NXP, Technolution and Compumatica, commissioned by the Dutch General
+                    support of Sentyron, NXP, Technolution and Compumatica, commissioned by the Dutch General
                     Intelligence and Security Service (AIVD) and the Ministry of Economic Affairs and Climate Policy (min.
                     EZK), and executed under the dcypher roadmap Cryptography.<br/><br/>
                     The PQChoiceAssistant is an extension to the <a class="text-primary hover:underline" href="https://publications.tno.nl/publication/34643387/XTdELY16/TNO-2024-pqc-ne.pdf">PQC Migration Handbook</a>. The PQC Migration Handbook
@@ -52,7 +52,7 @@
                     <b>Context</b>
                     <br/><br/>
                     De PQChoiceAssistant is een tool ontwikkeld door TNO en Centrum Wiskunde & Informatica, met de ondersteuning
-                    van Fox Crypto, NXP, Technolution and Compumatica, in opdracht van de AIVD
+                    van Sentyron, NXP, Technolution and Compumatica, in opdracht van de AIVD
                     en het Ministerie van Economische Zaken en Klimaat, uitgevoerd onder de dcypher roadmap Cryptografie.<br/><br/>
                     De PQChoiceAssistant is een uitbreiding op het <a class="text-primary hover:underline" href="https://www.tno.nl/nl/newsroom/2023/04/pqc-migratie-handboek/">PQC Migratie Handboek</a>. Het PQC Migratie Handboek
                     ondersteunt organisaties in het mitigeren van de quantumdreiging op de huidige cryptografie,
