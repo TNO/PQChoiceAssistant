@@ -58,4 +58,4 @@ This project is licensed under the European Union Public License (EUPL) 1.2.
 
 ## How to get in touch
 
-For questions or feedback you can contact [Maaike van Leuken](mailto:maaike.vanleuken@tno.nl).
+For questions or feedback you can contact [Sam Leder](mailto:sam.leder@tno.nl).
