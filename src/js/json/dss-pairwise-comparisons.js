@@ -1,16 +1,16 @@
 export default {
-    "Falcon": {
+    "FN-DSA": {
         "ML-DSA": {
-            "NL": "ML-DSA presteert veel beter in sleutelgeneratie, ondertekenen and verifiëren. Falcon heeft significant kleinere sleutels en handtekeningen.",
-            "EN": "ML-DSA performs much better at key generation, signing and verifying. Falcon has significantly smaller keys and signatures."
+            "NL": "ML-DSA presteert veel beter in sleutelgeneratie, ondertekenen and verifiëren. FN-DSA heeft significant kleinere sleutels en handtekeningen.",
+            "EN": "ML-DSA performs much better at key generation, signing and verifying. FN-DSA has significantly smaller keys and signatures."
         },
         "SLH-DSA": {
-            "NL": "SLH-DSA genereert sleutels veel sneller, maar Falcon is veel sneller in ondertekenen and verifiëren. Falcon heeft ook kleinere sleutels en handtekeningen.",
-            "EN": "SLH-DSA generates keys much faster, but Falcon is much faster at signing and verifying. Falcon also has smaller keys and signatures."
+            "NL": "SLH-DSA genereert sleutels veel sneller, maar FN-DSA is veel sneller in ondertekenen and verifiëren. FN-DSA heeft ook kleinere sleutels en handtekeningen.",
+            "EN": "SLH-DSA generates keys much faster, but FN-DSA is much faster at signing and verifying. FN-DSA also has smaller keys and signatures."
         },
         "XMSS": {
-            "NL": "Falcon is veel sneller in sleutelgeneratie, ondertekenen and verifiëren. XMSS heeft veel kleinere publeke sleutels.",
-            "EN": "Falcon is much faster at key generation, signing and verifying. XMSS has much smaller public keys."
+            "NL": "FN-DSA is veel sneller in sleutelgeneratie, ondertekenen and verifiëren. XMSS heeft veel kleinere publeke sleutels.",
+            "EN": "FN-DSA is much faster at key generation, signing and verifying. XMSS has much smaller public keys."
         }
     },
     "ML-DSA": {

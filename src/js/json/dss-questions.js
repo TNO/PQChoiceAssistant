@@ -26,7 +26,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -42,7 +42,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4,
-                            "Falcon": 4.0,
+                            "FN-DSA": 4.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -58,7 +58,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -74,7 +74,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2,
-                            "Falcon": 2.0,
+                            "FN-DSA": 2.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -90,7 +90,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 1,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -122,7 +122,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -138,7 +138,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -170,7 +170,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3.9081144729131703,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 4.858224288412846,
                             "XMSS": 5.0
                         },
@@ -186,7 +186,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2,
-                            "Falcon": 2.0,
+                            "FN-DSA": 2.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -226,7 +226,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2,
-                            "Falcon": 2.0,
+                            "FN-DSA": 2.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -242,7 +242,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2.7266757413113023,
-                            "Falcon": 2.319288721964648,
+                            "FN-DSA": 2.319288721964648,
                             "SLH-DSA": 4.258902283559955,
                             "XMSS": 4.227258386320235
                         },
@@ -258,7 +258,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3.453351482622605,
-                            "Falcon": 2.6385774439292957,
+                            "FN-DSA": 2.6385774439292957,
                             "SLH-DSA": 3.51780456711991,
                             "XMSS": 3.454516772640471
                         },
@@ -274,7 +274,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.180027223933908,
-                            "Falcon": 2.957866165893944,
+                            "FN-DSA": 2.957866165893944,
                             "SLH-DSA": 2.776706850679865,
                             "XMSS": 2.681775158960707
                         },
@@ -290,7 +290,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.90670296524521,
-                            "Falcon": 3.277154887858592,
+                            "FN-DSA": 3.277154887858592,
                             "SLH-DSA": 2.03560913423982,
                             "XMSS": 1.9090335452809424
                         },
@@ -322,7 +322,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -338,7 +338,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.953351482622605,
-                            "Falcon": 4.138577443929296,
+                            "FN-DSA": 4.138577443929296,
                             "SLH-DSA": 3.75,
                             "XMSS": 3.75
                         },
@@ -354,7 +354,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.90670296524521,
-                            "Falcon": 3.277154887858592,
+                            "FN-DSA": 3.277154887858592,
                             "SLH-DSA": 2.5,
                             "XMSS": 2.5
                         },
@@ -370,7 +370,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.860054447867816,
-                            "Falcon": 2.415732331787888,
+                            "FN-DSA": 2.415732331787888,
                             "SLH-DSA": 1.25,
                             "XMSS": 1.25
                         },
@@ -386,7 +386,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.81340593049042,
-                            "Falcon": 1.5543097757171838,
+                            "FN-DSA": 1.5543097757171838,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -426,7 +426,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 4.0,
+                            "FN-DSA": 4.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -442,7 +442,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 5.0
                         },
@@ -458,7 +458,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 1,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 1.0,
                             "XMSS": 5.0
                         },
@@ -474,7 +474,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -514,7 +514,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -530,7 +530,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3.9173766019878347,
-                            "Falcon": 3.3903515432472062,
+                            "FN-DSA": 3.3903515432472062,
                             "SLH-DSA": 3.0775086151887177,
                             "XMSS": 2.998784514796088
                         },
@@ -546,7 +546,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2.8347532039756693,
-                            "Falcon": 1.7807030864944124,
+                            "FN-DSA": 1.7807030864944124,
                             "SLH-DSA": 1.1550172303774353,
                             "XMSS": 0.9975690295921762
                         },
@@ -562,7 +562,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 1.752129805963504,
-                            "Falcon": 0.17105462974161867,
+                            "FN-DSA": 0.17105462974161867,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -578,7 +578,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0.6695064079513386,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -594,7 +594,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -626,7 +626,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -642,7 +642,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4,
-                            "Falcon": 4.0,
+                            "FN-DSA": 4.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -658,7 +658,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 1.0,
                             "XMSS": 1.0
                         },
@@ -690,7 +690,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 4.0,
+                            "FN-DSA": 4.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -706,7 +706,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -722,7 +722,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": -1.0,
+                            "FN-DSA": -1.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -738,7 +738,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 3.0
                         },
@@ -778,7 +778,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -794,7 +794,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3.75,
-                            "Falcon": 3.8776611489768653,
+                            "FN-DSA": 3.8776611489768653,
                             "SLH-DSA": 5.0,
                             "XMSS": 4.458845532283275
                         },
@@ -810,7 +810,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 2.5,
-                            "Falcon": 2.755322297953731,
+                            "FN-DSA": 2.755322297953731,
                             "SLH-DSA": 5.0,
                             "XMSS": 3.91769106456655
                         },
@@ -826,7 +826,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 1.25,
-                            "Falcon": 1.6329834469305966,
+                            "FN-DSA": 1.6329834469305966,
                             "SLH-DSA": 5.0,
                             "XMSS": 3.376536596849825
                         },
@@ -842,7 +842,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.5106445959074621,
+                            "FN-DSA": 0.5106445959074621,
                             "SLH-DSA": 5.0,
                             "XMSS": 2.8353821291331
                         },
@@ -874,7 +874,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 0.0
                         },
@@ -890,7 +890,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -906,7 +906,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 3.0,
+                            "FN-DSA": 3.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -922,7 +922,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -954,7 +954,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -970,7 +970,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -986,7 +986,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1002,7 +1002,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1042,7 +1042,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1058,7 +1058,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.76950986858887,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 4.339556072103211,
                             "XMSS": 4.85755608095015
                         },
@@ -1074,7 +1074,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.539019737177741,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 3.679112144206423,
                             "XMSS": 4.715112161900302
                         },
@@ -1090,7 +1090,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.308529605766612,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 3.018668216309635,
                             "XMSS": 4.572668242850453
                         },
@@ -1106,7 +1106,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 4.078039474355482,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 2.3582242884128464,
                             "XMSS": 4.430224323800603
                         },
@@ -1138,7 +1138,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 3,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 5.0
                         },
@@ -1154,7 +1154,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 3.0,
                             "XMSS": 5.0
                         },
@@ -1170,7 +1170,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1186,7 +1186,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1226,7 +1226,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1242,7 +1242,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -1274,7 +1274,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1290,7 +1290,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1306,7 +1306,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 5.0,
+                            "FN-DSA": 5.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1322,7 +1322,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 5,
-                            "Falcon": 1.0,
+                            "FN-DSA": 1.0,
                             "SLH-DSA": 5.0,
                             "XMSS": 5.0
                         },
@@ -1362,7 +1362,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 0.0,
                             "XMSS": 0.0
                         },
@@ -1378,7 +1378,7 @@ export const questions = [
                         },
                         "scores": {
                             "ML-DSA": 0,
-                            "Falcon": 0.0,
+                            "FN-DSA": 0.0,
                             "SLH-DSA": 0.0,
                             "XMSS": -1.0
                         },

@@ -25,7 +25,7 @@ Key encapsulation mechanisms
 Digital signature schemes
 
 - ML-DSA (based on CRYSTALS-Dilithium)
-- Falcon
+- FN-DSA (based on Falcon)
 - SLH-DSA (based on SPHINCS+)
 - XMSS
 

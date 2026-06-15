@@ -12,7 +12,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 247152,
-                    "Falcon": 63158867,
+                    "FN-DSA": 63158867,
                     "SLH-DSA": 7045754,
                     "XMSS": 2409453840
                 }
@@ -24,7 +24,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 476989,
-                    "Falcon": 1800943,
+                    "FN-DSA": 1800943,
                     "SLH-DSA": 141425247,
                     "XMSS": 16171123
                 }
@@ -36,7 +36,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 236726,
-                    "Falcon": 292065,
+                    "FN-DSA": 292065,
                     "SLH-DSA": 4295129,
                     "XMSS": 1770291
                 }
@@ -56,7 +56,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 4864,
-                    "Falcon": 2305,
+                    "FN-DSA": 2305,
                     "SLH-DSA": 128,
                     "XMSS": 2573
                 }
@@ -68,7 +68,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 2592,
-                    "Falcon": 1793,
+                    "FN-DSA": 1793,
                     "SLH-DSA": 64,
                     "XMSS": 64
                 }
@@ -80,7 +80,7 @@ export default [
                 },
                 "values": {
                     "ML-DSA": 4595,
-                    "Falcon": 1280,
+                    "FN-DSA": 1280,
                     "SLH-DSA": 49856,
                     "XMSS": 2820
                 }

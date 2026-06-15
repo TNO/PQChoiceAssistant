@@ -9,7 +9,7 @@ export default [
                 "NL": "Gebaseerd op de learning with errors en short integer solution problemen (lattice-based)",
                 "EN": "Based on the learning with errors and short integer solution problems (lattice-based)"
             },
-            "Falcon": {
+            "FN-DSA": {
                 "NL": "Gebaseerd op het NTRU shortest vector probleem (lattice-based)",
                 "EN": "Based on the NTRU shortest vector problem (lattice-based)"
             },
@@ -33,7 +33,7 @@ export default [
                 "NL": "Gepubliceerd in 2017",
                 "EN": "Published in 2017"
             },
-            "Falcon": {
+            "FN-DSA": {
                 "NL": "Gepubliceerd in 2017",
                 "EN": "Published in 2017"
             },
@@ -57,7 +57,7 @@ export default [
                 "NL": "Eén van de winnaars van de zes jaar durende competitie van NIST, is als standaard uitgebracht in 2024 als FIPS 204",
                 "EN": "One of the winners of NIST's six-year long competition, was released as a standard in 2024 as FIPS 204"
             },
-            "Falcon": {
+            "FN-DSA": {
                 "NL": "Eén van de winnaars van de zes jaar durende competitie van NIST, is gepland voor uitgave als een standaard",
                 "EN": "One of the winners of NIST's six-year long competition, is slated to be released as a standard"
             },
@@ -81,7 +81,7 @@ export default [
                 "NL": "Vrij bestendig",
                 "EN": "Fairly resistant"
             },
-            "Falcon": {
+            "FN-DSA": {
                 "NL": "Gebruik van floating points en discrete sampling maakt side-channel resistance zeer uitdagend",
                 "EN": "Use of floating points and discrete sampling make side-channel resistance very challenging"
             },
@@ -105,7 +105,7 @@ export default [
                 "NL": "Stateless",
                 "EN": "Stateless"
             },
-            "Falcon": {
+            "FN-DSA": {
                 "NL": "Stateless",
                 "EN": "Stateless"
             },

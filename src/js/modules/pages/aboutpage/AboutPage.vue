@@ -37,7 +37,7 @@
                     <br/><br/>
                     <b>Scope</b>
                     <br/><br/>
-                    Currently, we support ML-KEM, Classic McEliece, FrodoKEM, HQC and BIKE as Key Encapsulation Mechanisms. We support Falcon, ML-DSA, XMSS and SLH-DSA as Digital Signature Algorithms. These are the most prominent PQC candidates, as they are either accepted as a NIST standard or have governmental support.
+                    Currently, we support ML-KEM, Classic McEliece, FrodoKEM, HQC and BIKE as Key Encapsulation Mechanisms. We support FN-DSA, ML-DSA, XMSS and SLH-DSA as Digital Signature Algorithms. These are the most prominent PQC candidates, as they are either accepted as a NIST standard or have governmental support.
                 </div>
             </template>
             <template v-if="language.current == 'NL'">
@@ -75,7 +75,7 @@
                     <br/><br/>
                     <b>Bereik</b>
                     <br/><br/>
-                    Momenteel ondersteunen we ML-KEM, Classic McEliece, FrodoKEM, HQC en BIKE als KEM's; en Falcon, ML-DSA, XMSS and SLH-DSA as DSA's. Dit zijn de meest prominente kandidaten, omdat ze ofwel geaccepteerd zijn al NIST-standaard, of overheidsondersteuning hebben.
+                    Momenteel ondersteunen we ML-KEM, Classic McEliece, FrodoKEM, HQC en BIKE als KEM's; en FN-DSA, ML-DSA, XMSS and SLH-DSA as DSA's. Dit zijn de meest prominente kandidaten, omdat ze ofwel geaccepteerd zijn al NIST-standaard, of overheidsondersteuning hebben.
                 </div>
             </template>
         </div>
